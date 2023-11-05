@@ -493,7 +493,7 @@ nav{
 /* ============================ We start ============================================= */
 
 #we{
-    background-image: url("../images/we.jpg") center no-repeat;
+    background: url("../images/we.jpg") center no-repeat;
     background-size: cover;
 }
 .we_content{
