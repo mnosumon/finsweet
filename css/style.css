@@ -651,7 +651,7 @@ nav{
     column-gap: 20px;
 }
 
-.footer_section_2_menu_2_list li{
+.footer_section_2_menu_2_list li a{
     height: 24px;
     width: 24px;
     background-color: #FFD2A4;
@@ -667,7 +667,7 @@ nav{
     color: #0072b1 ;
 }
 
-.footer_section_2_menu_2_list li i{
+.footer_section_2_menu_2_list li a i{
     height: 100%;
     width: 100%;
     display: flex;
