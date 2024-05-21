@@ -66,7 +66,7 @@ p{
 }
 
 .container{
-    width: 1280px;
+    max-width: 1280px;
     margin: 0 auto;
 }
 
@@ -124,110 +124,68 @@ nav {
     background-color: #0056b3;
 }
 
-/* Media Queries */
-@media screen and (max-width: 575.98px) {
-    .nav_left {
-        flex-direction: column;
-        align-items: flex-start;
-    }
 
-    .nav_menu ul {
-        flex-direction: column;
-        row-gap: 12px;
-    }
-
-    .nav_details {
-        flex-direction: column;
-        align-items: flex-start;
-    }
-
-    .nav_right {
-        margin-top: 12px;
-    }
-}
-
-@media screen and (min-width: 576px) and (max-width: 767.98px) {
-    .nav_left {
-        column-gap: 64px;
-    }
-
-    .nav_menu ul {
-        column-gap: 24px;
-    }
-
-    .nav_right {
-        margin-top: 12px;
-    }
-}
-
-@media screen and (min-width: 768px) and (max-width: 921.98px) {
-    .nav_left {
-        column-gap: 96px;
-    }
-
-    .nav_menu ul {
-        column-gap: 32px;
-    }
-}
-@media screen and (min-width: 922px) {
-    .container{
-        max-width: 100%;
-    }
-    
-}
 
 /* ============================ Navbar End ============================================= */
 
 /* ============================ Banner start ============================================= */
 
-#banner{
+#banner {
     background: url(../images/banner.jpg) no-repeat center;
     background-size: cover;
 }
 
-.banner_wrapper{
+.banner_wrapper {
     padding: 130px 0;
 }
 
-.banner_wrapper h5{
+.banner_wrapper h5 {
     width: 186px;
     padding-bottom: 16px;
-    color: #FFF;
+    color: #fff;
     font-weight: 700;
 }
 
-.banner_wrapper  h3{
-    width: 592px;
-    color: #FFF;
-    font-family: Roboto Condensed;
-    font-size: 64px;
-    font-style: normal;
+.banner_wrapper h3 {
+    max-width: 592px;
+    font-size: 3.5rem;
+    color: #fff;
+    font-family: 'Roboto Condensed', sans-serif; 
     font-weight: 700;
-    line-height: 82px;
+    line-height: 1.2; 
     letter-spacing: -0.64px;
     text-transform: uppercase;
+    
 }
 
-.banner_wrapper p{
-    width: 308px;
-    color: #FFF;
-    padding-left: 30px;
+.banner_wrapper p {
+    color: #fff;
     position: relative;
+    max-width: 308px; 
+    margin-top: 20px; 
 }
 
-.banner_wrapper p::before{
+.banner_wrapper p::before {
     content: "";
     width: 18px;
     height: 2px;
-    background-color: #FFD2A4;
+    background-color: #ffd2a4;
     position: absolute;
-    left: 0;
-    top: 12px;
+    left: -30px; /* Adjusted position */
+    top: 50%;
+    transform: translateY(-50%);
 }
 
-.banner_button{
-    margin: 32px 0 64px;
+.banner_button {
+    display: inline-block; 
+    background-color: #fff; 
+    color: #333; 
+    padding: 10px 20px; 
+    border-radius: 4px; 
+    text-decoration: none; 
 }
+
+
 
 /* ============================ Banner end ============================================= */
 
@@ -784,4 +742,71 @@ nav {
     transform: translateX(-100%);
     height: 100%;
     padding: 24px 64px;
+}
+
+
+/* Media Queries */
+
+@media screen and (max-width: 575.98px) {
+    /* ============================ Navbar Start ============================================= */
+    .nav_left {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .nav_menu ul {
+        flex-direction: column;
+        row-gap: 12px;
+    }
+
+    .nav_details {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .nav_right {
+        margin-top: 12px;
+    }
+    /* ============================ Navbar End ============================================= */
+    .banner_wrapper h3 {
+        font-size: 2rem;
+        width: auto;
+    }
+    .banner_wrapper p {
+        max-width: 100%; 
+    }
+}
+
+@media screen and (min-width: 576px) and (max-width: 767.98px) {
+    /* ============================ Navbar Start ============================================= */
+    .nav_left {
+        column-gap: 64px;
+    }
+
+    .nav_menu ul {
+        column-gap: 24px;
+    }
+
+    .nav_right {
+        margin-top: 12px;
+    }
+    /* ============================ Navbar End ============================================= */
+}
+
+@media screen and (min-width: 768px) and (max-width: 921.98px) {
+    /* ============================ Navbar Start ============================================= */
+    .nav_left {
+        column-gap: 96px;
+    }
+
+    .nav_menu ul {
+        column-gap: 32px;
+    }
+    /* ============================ Navbar End ============================================= */
+}
+@media screen and (min-width: 922px) {
+    .container{
+        max-width: 100%;
+    }
+    
 }
