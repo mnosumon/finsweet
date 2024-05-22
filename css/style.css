@@ -794,6 +794,44 @@ nav {
         font-size: 14px;
     }
 /* ============================ church End ============================================= */
+    /* ============================ /* Love  start ============================================= */
+    #love .container{
+        padding: 80px 12px;
+    }
+    .love_heading{
+        padding-bottom: 52px;
+    }
+    .love_heading h2{
+        width: auto;
+    }
+    .love_heading p{
+        width: auto;
+    }
+    .common_button {
+        padding: 10px 20px;
+        border-radius: 8px;
+        font-size: 12px;
+    }
+    .love_details{
+        display: flex;
+        column-gap: 24px;
+    }
+    .love_image{
+        width: auto;
+        display: none;
+    }
+    .love_image_block{
+        margin: 0 auto;
+        display: block !important;
+    }
+    .love_details .love_image:nth-child(2){
+        width: auto;
+        height: auto;
+    }
+    .love_end p{
+        width: auto;
+    }
+    /* ============================ Love End ============================================= */
 }
 
 @media screen and (min-width: 576px) and (max-width: 767.98px) {
@@ -823,6 +861,44 @@ nav {
     padding: 40px;
 }
 /* ============================ church End ============================================= */
+/* ============================ /* Love  start ============================================= */
+#love .container{
+    padding: 80px 12px;
+}
+.love_heading{
+    padding-bottom: 62px;
+}
+.love_heading h2{
+    width: auto;
+}
+.love_heading p{
+    width: auto;
+}
+.common_button {
+	padding: 10px 20px;
+	border-radius: 8px;
+    font-size: 12px;
+}
+.love_details{
+    display: flex;
+    column-gap: 24px;
+}
+.love_image{
+    width: auto;
+    display: none;
+}
+.love_image_block{
+    margin: 0 auto;
+    display: block !important;
+}
+.love_details .love_image:nth-child(2){
+    width: auto;
+    height: auto;
+}
+.love_end p{
+    width: auto;
+}
+/* ============================ Love End ============================================= */
 }
 
 @media screen and (min-width: 768px) and (max-width: 921.98px) {
@@ -847,6 +923,18 @@ nav {
     padding: 50px;
 }
 /* ============================ church End ============================================= */
+/* ============================ /* Love  start ============================================= */
+#love .container{
+    padding: 90px 12px;
+}
+.love_heading{
+    padding-bottom: 72px;
+}
+.love_heading p{
+    width: auto;
+}
+
+/* ============================ Love End ============================================= */
 }
 @media screen and (min-width: 922px) {
     .container{
@@ -864,3 +952,19 @@ nav {
     }
 /* ============================ church End ============================================= */
 }
+
+
+
+
+/* @media screen and (max-width: 575.98px) {
+}
+
+@media screen and (min-width: 576px) and (max-width: 767.98px) {
+}
+
+@media screen and (min-width: 768px) and (max-width: 921.98px) {
+
+}
+@media screen and (min-width: 922px) {
+
+} */
