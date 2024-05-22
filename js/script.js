@@ -54,6 +54,4 @@
                     //     font-weight: 400;
                     //     line-height: 24px; 
                     // }
-                    
-                    
-                                       
+                              

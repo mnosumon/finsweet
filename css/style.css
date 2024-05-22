@@ -136,7 +136,7 @@ nav {
 }
 
 .banner_wrapper {
-    padding: 130px 0;
+    padding: 130px 12px;
 }
 
 .banner_wrapper h5 {
@@ -197,7 +197,7 @@ nav {
 }
 
 #church .container{
-    padding-top: 125px;
+    padding: 125px 12px 0;
 }
 
 .church_card_1{
@@ -231,7 +231,8 @@ nav {
 
 .church_details{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    gap: 30px;
 }
 .church_card_1 p{
     width: 251px;
@@ -767,7 +768,8 @@ nav {
     .nav_right {
         margin-top: 12px;
     }
-    /* ============================ Navbar End ============================================= */
+/* ============================ Navbar End ============================================= */
+/* ============================ Banner Start ============================================= */
     .banner_wrapper h3 {
         font-size: 2rem;
         width: auto;
@@ -775,6 +777,23 @@ nav {
     .banner_wrapper p {
         max-width: 100%; 
     }
+/* ============================ Banner End ============================================= */
+/* ============================ Curch Start ============================================= */
+    .church_heading h2{
+        font-size: 20px;
+        width: auto;
+    }
+    .church_details{
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+    .church_card_1 {
+        padding: 20px;
+    }
+    .church_card_1 p {
+        font-size: 14px;
+    }
+/* ============================ church End ============================================= */
 }
 
 @media screen and (min-width: 576px) and (max-width: 767.98px) {
@@ -790,7 +809,20 @@ nav {
     .nav_right {
         margin-top: 12px;
     }
-    /* ============================ Navbar End ============================================= */
+/* ============================ Nav End ============================================= */
+/* ============================ Curch Start ============================================= */
+.church_heading h2{
+    font-size: 24px;
+    width: auto;
+}
+.church_details{
+    flex-wrap: wrap;
+    gap: 24px;
+}
+.church_card_1 {
+    padding: 40px;
+}
+/* ============================ church End ============================================= */
 }
 
 @media screen and (min-width: 768px) and (max-width: 921.98px) {
@@ -802,11 +834,33 @@ nav {
     .nav_menu ul {
         column-gap: 32px;
     }
-    /* ============================ Navbar End ============================================= */
+/* ============================ Nav End ============================================= */
+/* ============================ Curch Start ============================================= */
+.church_heading h2{
+    font-size: 30px;
+    width: auto;
+}
+.church_details{
+    flex-wrap: wrap;
+}
+.church_card_1 {
+    padding: 50px;
+}
+/* ============================ church End ============================================= */
 }
 @media screen and (min-width: 922px) {
     .container{
         max-width: 100%;
     }
-    
+    /* ============================ Curch Start ============================================= */
+    #church .container{
+        padding-top: 125px;
+    }
+    .church_card_1{
+        padding: 60px;
+    }
+    .church_card_1 p{
+        width: auto;
+    }
+/* ============================ church End ============================================= */
 }
