@@ -600,6 +600,7 @@ nav {
 
 #footer_start{
     background-color: #161722;
+    padding: 0 12px;
 }
 
 .footer_section_1 .pc{
@@ -618,7 +619,14 @@ nav {
     justify-content: space-between;
     padding: 64px 0;
 }
-
+.footer_right{
+    display: flex;
+    gap: 130px;
+}
+.footer_section_2{
+    display: flex;
+    gap: 30px;
+}
 .footer_section_2_menu_1_head{
     padding-bottom: 20px;
     color: #FFF;
@@ -645,11 +653,6 @@ nav {
 }
 .footer_section_2_menu_1_list a{
     color: #FFF;
-}
-
-.footer_section_2{
-    display: flex;
-    column-gap: 72px;
 }
 
 .footer_section_2_menu_2_head{
@@ -729,8 +732,7 @@ nav {
     height: 100%;
     padding: 24px 64px;
 }
-
-
+/* ============================ footer end ============================================= */
 /* Media Queries */
 
 @media screen and (max-width: 575.98px) {
@@ -908,6 +910,43 @@ nav {
     padding: 20px 16px 14px;
 }
 /* ============================ Share End ============================================= */
+/* ============================ footer Star ============================================= */
+#footer_start .container{
+    flex-direction: column;
+    gap: 30px;
+}
+.footer_right{
+    display: flex;
+    justify-content: space-between;
+}
+.footer_section_2{
+    gap: 10px;
+}
+.footer_logo{
+    width: 130px;
+}
+.footer_logo img{
+    width: 100%;
+}
+ .footer_section_3 h2{
+     width: auto;
+     font-size: 24px;
+     line-height: 30px; 
+ }
+ .footer_section_2_menu_2_list {
+	gap: 20px;
+	flex-direction: column;
+}
+ .footer_section_3{
+     width: auto;
+ }
+ .footer_section_3_input{
+    padding: 10px 130px 10px 10px;
+ }
+ .footer_from_btn{
+     padding: 0px 30px;
+ }
+ /* ============================ footer end ============================================= */
 }
 
 @media screen and (min-width: 576px) and (max-width: 767.98px) {
@@ -1061,6 +1100,43 @@ nav {
     width: auto;
 }
 /* ============================ Share End ============================================= */
+/* ============================ footer Star ============================================= */
+#footer_start .container{
+    flex-direction: column;
+    gap: 30px;
+}
+.footer_right{
+    display: flex;
+    justify-content: space-between;
+}
+.footer_section_2{
+    gap: 120px;
+}
+.footer_logo{
+    width: 130px;
+}
+.footer_logo img{
+    width: 100%;
+}
+ .footer_section_3 h2{
+     width: auto;
+     font-size: 24px;
+     line-height: 30px; 
+ }
+ .footer_section_2_menu_2_list {
+	gap: 20px;
+	flex-direction: column;
+}
+ .footer_section_3{
+     width: auto;
+ }
+ .footer_section_3_input{
+    padding: 10px 130px 10px 10px;
+ }
+ .footer_from_btn{
+     padding: 0px 30px;
+ }
+ /* ============================ footer end ============================================= */
 }
 
 @media screen and (min-width: 768px) and (max-width: 921.98px) {
@@ -1148,6 +1224,25 @@ nav {
     width: auto;
 }
 /* ============================ Share End ============================================= */
+/* ============================ footer Star ============================================= */
+.footer_from_btn {
+	padding: 0px 20px;
+}
+.footer_section_3_input {
+	padding: 10px 140px 10px 10px;
+}
+#footer_start .container {
+    gap: 40px;
+}
+.footer_right {
+	display: flex;
+	gap: 30px;
+}
+.footer_section_2_menu_2_list {
+    flex-direction: column;
+    gap: 20px;
+}
+ /* ============================ footer end ============================================= */
 }
 @media screen and (min-width: 922px) {
     .container{
