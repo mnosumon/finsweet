@@ -333,7 +333,7 @@ nav {
     background-color: #F5F2F0;
 }
 #benefits .container{
-    padding: 128px 0;
+    padding: 128px 12px;
 }
 
 .benefits_heading{
@@ -832,6 +832,17 @@ nav {
         width: auto;
     }
     /* ============================ Love End ============================================= */
+/* ============================ /* benefits  start ====================================== */
+.benefits_heading h2 {
+	width: auto;
+	font-size: 36px;
+}
+.benefits_images {
+	flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+}
+/* ============================ benefits End ============================================= */
 }
 
 @media screen and (min-width: 576px) and (max-width: 767.98px) {
@@ -899,6 +910,16 @@ nav {
     width: auto;
 }
 /* ============================ Love End ============================================= */
+/* ============================ /* benefits  start ====================================== */
+.benefits_heading h2 {
+	width: auto;
+}
+.benefits_images {
+	flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+/* ============================ benefits End ============================================= */
 }
 
 @media screen and (min-width: 768px) and (max-width: 921.98px) {
@@ -935,6 +956,13 @@ nav {
 }
 
 /* ============================ Love End ============================================= */
+/* ============================ /* benefits  start ====================================== */
+.benefits_images {
+	flex-wrap: wrap;
+    justify-content: center;
+    gap: 24px;
+}
+/* ============================ benefits End ============================================= */
 }
 @media screen and (min-width: 922px) {
     .container{
@@ -951,6 +979,18 @@ nav {
         width: auto;
     }
 /* ============================ church End ============================================= */
+/* ============================ /* Love  start ============================================= */
+.love_heading p{
+    width: auto;
+}
+/* ============================ Love End ============================================= */
+/* ============================ /* benefits  start ====================================== */
+.benefits_images {
+	flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+/* ============================ benefits End ============================================= */
 }
 
 
