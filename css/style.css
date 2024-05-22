@@ -871,6 +871,25 @@ nav {
 	left: 90%;
 }
 /* ============================ Join End ============================================= */
+/* ============================ We start ============================================= */
+.we_content{
+    padding: 80px 20px;
+}
+.we_details_right{
+    display: none;
+}
+.we_for_bg {
+	padding: 16px 32px 24px;
+}
+.we_details_left h2{
+    width: auto;
+    font-size: 30px;
+    line-height: 36px;
+}
+.we_details_left p{
+    width: auto;
+} 
+/* ============================ We End ============================================= */
 }
 
 @media screen and (min-width: 576px) and (max-width: 767.98px) {
@@ -988,6 +1007,22 @@ nav {
 	left: 90%;
 }
 /* ============================ Join End ============================================= */
+/* ============================ We start ============================================= */
+.we_content{
+    padding: 80px 40px;
+}
+.we_details_right{
+    display: none;
+}
+.we_for_bg {
+	padding: 20px 36px 28px;
+}
+.we_details_left h2{
+    width: auto;
+    font-size: 30px;
+    line-height: 36px;
+} 
+/* ============================ We End ============================================= */
 }
 
 @media screen and (min-width: 768px) and (max-width: 921.98px) {
@@ -1046,6 +1081,22 @@ nav {
 	left: 90%;
 }
 /* ============================ Join End ============================================= */
+/* ============================ We start ============================================= */
+.we_content{
+    padding: 80px 40px;
+}
+.we_details_right{
+    display: block;
+}
+.we_for_bg {
+	padding: 30px 40px 36px;
+}
+.we_details_left h2{
+    width: auto;
+    font-size: 30px;
+    line-height: 36px;
+} 
+/* ============================ We End ============================================= */
 }
 @media screen and (min-width: 922px) {
     .container{
@@ -1074,6 +1125,11 @@ nav {
     gap: 30px;
 }
 /* ============================ benefits End ============================================= */
+/* ============================ We start ============================================= */
+.we_content{
+    padding: 120px 100px;
+}
+/* ============================ We End ============================================= */
 }
 
 
